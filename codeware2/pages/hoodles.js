@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import Product from "@/models/Product";
-import mongoose from "mongoose";
+import mongoose from "mongoose"
 const hoodles = ({products}) => {
   return (
     <div className='constainer px-2 sm:m-auto items-center '>
